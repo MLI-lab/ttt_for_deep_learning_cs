@@ -1,4 +1,4 @@
-# A domain adaptation method for deep-learning-based compressed sensing
+# Test-time training for deep-learning-based compressed sensing
 
 <p align="center"><img src="./summary.png" width="700" height="325"></p>
 
