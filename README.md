@@ -11,7 +11,7 @@ Code by: Anonymous authors
 
 ***
 
-In order to study our domain adaptation method for multiple notions of robustness, the considered problem in the paper is accelerated MRI reconstruction where the task is to reconstruct an image from a few measurements. In this regard, we specifically provide experiments to test our method for U-Net and end-to-end variational network (VarNet) under three natural distribution shifts, each designated with a jupyter notebook: 
+In order to study our domain adaptation method for multiple notions of robustness, the considered problem in the paper is accelerated MRI reconstruction where the task is to reconstruct an image from a few measurements. In this regard, we specifically provide experiments to test our method for [U-Net](https://github.com/MLI-lab/robustness_interventions_cs/tree/master/unet) and end-to-end variational network ([VarNet](https://github.com/MLI-lab/robustness_interventions_cs/tree/master/varnet)) under three natural distribution shifts, each designated with a jupyter notebook: 
 
 (i) anatomy_shift.ipynb, 
 
