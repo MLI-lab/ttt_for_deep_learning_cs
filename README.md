@@ -11,23 +11,13 @@ Code by: Anonymous authors
 
 ***
 
-In order to study multiple notions of robustness, the considered problem in the paper is accelerated MRI reconstruction where the task is to reconstruct an image from a few measurements. In this regard, we specifically provide experiments to: 
+In order to study our domain adaptation method for multiple notions of robustness, the considered problem in the paper is accelerated MRI reconstruction where the task is to reconstruct an image from a few measurements. In this regard, we specifically provide experiments to test our method for U-Net and end-to-end variational network (VarNet) under three natural distribution shifts, each designated with a jupyter notebook: 
 
-(i) Generate and apply small, adversarial perturbations for un-trained methods like $\mathcal{l}_1$-norm minimization and un-trained neural networks (**adversarial_perturbations_untrained.ipynb**), 
+(i) anatomy_shift.ipynb, 
 
-(ii) generate and apply small, adversarial perturbations for trained neural networks like U-net and the end-to-end variational network (VarNet) (**adversarial_perturbations_trained.ipynb**),
+(ii) dataset_shift.ipynb, and
 
-(iii) perform a sample test to apply the models that have only seen samples from the fastMRI dataset to the Stanford set (**distribution_shift_fastMRI_to_Stanford.ipynb**), 
-
-(iv) perform a sample test to apply the models that have only seen knee samples from the fastMRI dataset to a brain image (**distribution_shift_fastMRI_knee_to_brain.ipynb**),
-
-(v) perform a sample test to apply the models that have only seen samples from the fastMRI dataset to a subset of challenging samples from the fastMRI dataset (**distribution_shift_fastMRI_to_adversarially_filtered_data.ipynb**),
-
-(vi) put a small feature on the image and recover it using multiple image reconstruction methods (**small_features_artificial_fixed_information.ipynb**), 
-
-(vii) reconstruct an image which contains a real-world pathology and measure how much of that feature is recovered (**small_features_real_worl_pathology.ipynb**),
-
-(viii) and finally, check whether the choice of basis matters when evaluating the robustness of sparsity-based methods to adversarial perturbations (**adversarial_perturbations_basis_doesnt_matter.ipynb**).
+(iii) modality_shift.ipynb.
 
 
 ### List of contents
