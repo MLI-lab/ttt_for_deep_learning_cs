@@ -84,7 +84,7 @@ The [Stanford](https://rice.box.com/shared/static/4xk6nef26vk8uyes4wymtob5pbmcfd
 
 The [adversarially-filtered](https://rice.box.com/shared/static/9h55fkst76e0k5f8te5xayy5jbysy18y) dataset which we created using the invertible Recurrent Inference Machine ([i-RIM](https://arxiv.org/pdf/1706.04008.pdf)).
 
-**Note.** For exact reproducibility, we'll add a link to our model checlpoints later.
+**Note.** For exact reproducibility, we'll add a link to our model checkpoints later.
 
 
 # Running the code
