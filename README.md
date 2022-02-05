@@ -24,7 +24,7 @@ In order to study our domain adaptation method for multiple notions of robustnes
 
 * [Setup and installation](#Setup-and-installation) 
 
-* [Dataset](#Dataset) 
+* [Datasets and model checkpoints](#Dataset) 
 
 * [Running the code](#Running-the-code) 
 
