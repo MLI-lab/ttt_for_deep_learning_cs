@@ -79,7 +79,7 @@ Install bart toolbox by following the instructions on their [home page](https://
 The experiments are performed on the following datasets:
 
 The [fastMRI](https://fastmri.org/dataset) dataset (both knee and brain datasets are required). <br>
-The [Stanford](http://mridata.org/list?project=Stanford%20Fullysampled%203D%20FSE%20Knees) (all 19 volumes should be downloaded). <br>
+The [Stanford](http://mridata.org/list?project=Stanford%20Fullysampled%203D%20FSE%20Knees) dataset (all 19 volumes should be downloaded). <br>
 
 In a [train_data](https://github.com/MLI-lab/robustness_interventions_cs/tree/master/unet/train_data) folder, we specify which files from the 2 datasets above are used for training and testing. In our [training notebook](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb), we show how to access those file names.
 
