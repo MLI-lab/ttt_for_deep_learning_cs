@@ -78,11 +78,11 @@ Install bart toolbox by following the instructions on their [home page](https://
 
 The experiments are performed on the following datasets:
 
-The [fastMRI](https://fastmri.org/dataset) dataset.
+The [fastMRI](https://fastmri.org/dataset) dataset (both knee and brain datasets are required).
 
-The [Stanford](https://rice.box.com/shared/static/4xk6nef26vk8uyes4wymtob5pbmcfdyd) dataset which we collected from [mridata.org](http://mridata.org/list?project=Stanford%20Fullysampled%203D%20FSE%20Knees).
+The [Stanford](http://mridata.org/list?project=Stanford%20Fullysampled%203D%20FSE%20Knees) (all 19 volumes should be downloaded).
 
-The [adversarially-filtered](https://rice.box.com/shared/static/9h55fkst76e0k5f8te5xayy5jbysy18y) dataset which we created using the invertible Recurrent Inference Machine ([i-RIM](https://arxiv.org/pdf/1706.04008.pdf)).
+In a [train_data](https://github.com/MLI-lab/robustness_interventions_cs/tree/master/unet/train_data) folder, we specify which files from the 2 datasets above are used for training and testing. In our [training notebook](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb), we show how to access those file names.
 
 To directly run the experiments without training models from the scratch, one can use our model checkpoints for [U-Net](https://drive.google.com/uc?id=1Le_JF1ZPzC_7bS1nj4XrG8fcIGrFBsJM&export=download) and [VarNet](https://drive.google.com/uc?id=1X091h7NdMTLwfPJJ_zEqQPGvLsX9Pomt&export=download).
 However, we provide a [training code](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb) to reproduce model checkpoints as well.
