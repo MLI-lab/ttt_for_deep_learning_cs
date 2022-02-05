@@ -74,7 +74,7 @@ Install bart toolbox by following the instructions on their [home page](https://
 **Note.** After installing pytorch lightning, if you run into a 'state-dict' error for VarNet, you might need to replace parsing.py in /opt/conda/lib/python3.7/site-packages/pytorch_lightning/utilities/parsing.py from [here](https://github.com/PyTorchLightning/PyTorch-Lightning/blob/0.8.1/pytorch_lightning/utilities/parsing.py#L96-L128). This is due to the version mismatch in their recent release (0.7.5).
 
 
-# Datasets
+# Datasets and model checkpoints
 
 The experiments are performed on the following datasets:
 
@@ -84,7 +84,8 @@ The [Stanford](https://rice.box.com/shared/static/4xk6nef26vk8uyes4wymtob5pbmcfd
 
 The [adversarially-filtered](https://rice.box.com/shared/static/9h55fkst76e0k5f8te5xayy5jbysy18y) dataset which we created using the invertible Recurrent Inference Machine ([i-RIM](https://arxiv.org/pdf/1706.04008.pdf)).
 
-**Note.** For exact reproducibility, we'll add a link to our model checkpoints later.
+To directly run the experiments without training models from the scratch, one can use our model checkpoints for [U-Net](https://drive.google.com/uc?id=1Le_JF1ZPzC_7bS1nj4XrG8fcIGrFBsJM&export=download) and [VarNet](https://drive.google.com/uc?id=1X091h7NdMTLwfPJJ_zEqQPGvLsX9Pomt&export=download).
+However, we provide a [training code](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb) to reproduce model checkpoints as well.
 
 
 # Running the code
