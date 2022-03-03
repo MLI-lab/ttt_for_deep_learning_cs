@@ -19,7 +19,7 @@ from .data.mri_data import SliceData
 from .data import transforms
 
 
-class MRIModel(): # pl.LightningModule
+class MRIModel(pl.LightningModule):
     """
     Abstract super class for Deep Learning based reconstruction models.
     This is a subclass of the LightningModule class from pytorch_lightning, with
