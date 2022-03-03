@@ -99,7 +99,7 @@ You may simply clone this repository, enter U-Net's or VarNet's folder, and fina
 
 # References
 
-Code for training the U-net and VarNet is taken from the [fastMRI repository](https://github.com/facebookresearch/fastMRI/tree/master/models/unet) with modifications. <br>
+Code for training the U-Net and the VarNet is taken from the [fastMRI repository](https://github.com/facebookresearch/fastMRI/tree/master/models/unet) with modifications. <br>
 
 
 # Citation
