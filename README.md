@@ -1,5 +1,9 @@
 # Test-time training for deep-learning-based compressed sensing
 
+Check out our colab-demo for a quick example on how test-time training works for multi-coil accelerated MRI reconstruction:
+
+[![Explore ConvDecoder in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S_S1Wp9pHxnR3DMOivaKS6dgHDmweabY#offline=true&sandboxMode=true)<br>
+
 <p align="center"><img src="./summary.png" width="700" height="325"></p>
 
 
