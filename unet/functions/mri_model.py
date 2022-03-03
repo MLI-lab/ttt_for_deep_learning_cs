@@ -19,7 +19,7 @@ from .data.mri_data import SliceData
 from .data import transforms
 
 
-class MRIModel(pl.LightningModule):
+class MRIModel(): # pl.LightningModule
     """
     Abstract super class for Deep Learning based reconstruction models.
     This is a subclass of the LightningModule class from pytorch_lightning, with
@@ -64,21 +64,21 @@ class MRIModel(pl.LightningModule):
     def train_data_transform(self):
         raise NotImplementedError
 
-    @pl.data_loader
+    #@pl.data_loader
     def train_dataloader(self):
         return self._create_data_loader(self.train_data_transform(), data_partition='train')
 
     def val_data_transform(self):
         raise NotImplementedError
 
-    @pl.data_loader
+    #@pl.data_loader
     def val_dataloader(self):
         return self._create_data_loader(self.val_data_transform(), data_partition='val')
 
     def test_data_transform(self):
         raise NotImplementedError
 
-    @pl.data_loader
+    #@pl.data_loader
     def test_dataloader(self):
         return self._create_data_loader(self.test_data_transform(), data_partition='test', sample_rate=1.)
 
