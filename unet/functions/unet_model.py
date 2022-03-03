@@ -181,7 +181,7 @@ class UnetModel(nn.Module):
 
     
 ### For Demo
-from mri_model import MRIModel
+from .mri_model import MRIModel
 class UnetMRIModelDemo(MRIModel):
     def __init__(self, hparams):
         super().__init__(hparams)
