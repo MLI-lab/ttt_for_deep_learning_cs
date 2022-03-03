@@ -178,3 +178,37 @@ class UnetModel(nn.Module):
             output = conv(output)
 
         return output
+
+    
+### For Demo
+from .mri_model import MRIModel
+class UnetMRIModelDemo(MRIModel):
+    def __init__(self, hparams):
+        super().__init__(hparams)
+        self.unet = UnetModel(
+            in_chans=hparams.in_chans, ############################################################## MZD
+            out_chans=hparams.in_chans, ############################################################## MZD
+            chans=hparams.num_chans,
+            num_pool_layers=hparams.num_pools,
+            drop_prob=hparams.drop_prob
+        )
+
+    def forward(self, input):
+        return self.unet(input) #(input.unsqueeze(1)).squeeze(1) ############## MZD
+    
+    @staticmethod
+    def add_model_specific_args(parser):
+        parser.add_argument('--num-pools', type=int, default=4, help='Number of U-Net pooling layers')
+        parser.add_argument('--drop-prob', type=float, default=0.0, help='Dropout probability')
+        parser.add_argument('--num-chans', type=int, default=32, help='Number of U-Net channels')
+        parser.add_argument('--batch-size', default=16, type=int, help='Mini batch size')
+        parser.add_argument('--lr', type=float, default=0.001, help='Learning rate')
+        parser.add_argument('--lr-step-size', type=int, default=40,
+                            help='Period of learning rate decay')
+        parser.add_argument('--lr-gamma', type=float, default=0.1,
+                            help='Multiplicative factor of learning rate decay')
+        parser.add_argument('--weight-decay', type=float, default=0.,
+                            help='Strength of weight decay regularization')
+        parser.add_argument('--mask_type',default='random')
+        parser.add_argument('--in-chans', type=int, default=2, help='Number of U-Net input (and output) channels')
+        return parser
