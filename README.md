@@ -21,7 +21,9 @@ In order to study our domain adaptation method for multiple notions of robustnes
 
 (ii) dataset_shift.ipynb, and
 
-(iii) modality_shift.ipynb.
+(iii) modality_shift.ipynb, and
+
+(iv) acceleration_shift.ipynb.
 
 
 ### List of contents
