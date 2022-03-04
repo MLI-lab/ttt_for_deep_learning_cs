@@ -4,7 +4,7 @@ Check out our colab-demo for a quick example on how test-time training works for
 
 [![Explore ConvDecoder in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S_S1Wp9pHxnR3DMOivaKS6dgHDmweabY#offline=true&sandboxMode=true)<br>
 
-<p align="center"><img src="./summary_.png" width="800" height="325"></p>
+<p align="center"><img src="./summary.png" width="800" height="325"></p>
 
 
 This repository provides code for reproducing the results in the paper:
