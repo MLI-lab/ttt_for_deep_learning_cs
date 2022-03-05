@@ -89,7 +89,7 @@ The [Stanford](http://mridata.org/list?project=Stanford%20Fullysampled%203D%20FS
 
 In a [train_data](https://github.com/MLI-lab/robustness_interventions_cs/tree/master/unet/train_data) folder, we specify which files from the 2 datasets above are used for training and testing. In our [training notebook](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb), we show how to access those file names.
 
-To directly run the experiments without training models from the scratch, one can use our model checkpoints for [U-Net](https://drive.google.com/uc?id=1Le_JF1ZPzC_7bS1nj4XrG8fcIGrFBsJM&export=download) and [VarNet](https://drive.google.com/uc?id=1X091h7NdMTLwfPJJ_zEqQPGvLsX9Pomt&export=download).
+To directly run the experiments without training models from the scratch, one can use our model checkpoints for [U-Net](https://drive.google.com/uc?id=1Hmm5QvnMD41QlSMx7OMZTbQ4-1g9Twv3&export=download) and [VarNet](https://drive.google.com/uc?id=1aTwIUuF8FadQ-laSzupcXUH9Ah3hXkLD&export=download).
 However, we provide a [training code](https://github.com/MLI-lab/robustness_interventions_cs/blob/master/unet/train.ipynb) to reproduce model checkpoints as well.
 
 
