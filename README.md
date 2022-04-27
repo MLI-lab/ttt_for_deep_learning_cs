@@ -9,7 +9,7 @@ Check out our colab-demo for a quick example on how test-time training works for
 
 This repository provides code for reproducing the results in the paper:
 
-**''Test-Time Training Can Close the Natural Distribution Shift Performance Gap in Deep Learning Based Compressed Sensing,''** by Mohammad Zalbagi Darestani, Jiayu Liu, and Reinhard Heckel.
+**''[Test-Time Training Can Close the Natural Distribution Shift Performance Gap in Deep Learning Based Compressed Sensing](https://arxiv.org/pdf/2204.07204.pdf),''** by Mohammad Zalbagi Darestani, Jiayu Liu, and Reinhard Heckel.
 
 Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@rice.edu)
 
